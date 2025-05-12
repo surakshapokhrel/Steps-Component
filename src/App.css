@@ -1,6 +1,11 @@
 * {
   margin: auto;
   padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+  color: #333;
 }
 .steps {
   background-color: #f7f7f7;
@@ -57,4 +62,21 @@
 .numbers .active {
   background-color: #7950f2;
   color: white;
+}
+.close {
+  background-color: none;
+  top: 16px;
+  right: 16px;
+  font-size: 40px;
+  position: absolute;
+  border: none;
+  cursor: pointer;
+  color: inherit;
+}
+h3 {
+  margin: 0;
+  text-transform: uppercase;
+}
+.close:hover {
+  color: #7950f2;
 }
